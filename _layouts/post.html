@@ -2,8 +2,9 @@
 {% include nav.html %}
   <div class="flex-1">
     <div class="bg-white mx-auto max-w-sm shadow-lg rounded-lg overflow-hidden px-6 py-4 block no-underline text-black mt-8">
-      <h1 class="text-xl font-normal pb-2 mb-2 border-b">{{ page.title }}</h1>
-      <img class="w-100" src="{{ site.url }}/img/comics/{{ page.title | slugify }}.png" />
+      <h1 class="text-xl font-normal">{{ page.title }}</h1>
+      <h6 class="text-base text-grey-dark font-normal mb-4">{{ page.date | date_to_string }}</h6>
+      <img class="w-100 mb-3" src="{{ site.url }}/img/comics/{{ page.title | slugify }}.png" />
       {{ content }}
     </div>
   </div>

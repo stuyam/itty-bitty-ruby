@@ -1,23 +1,5 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-body {
-  background-color: #f1f5f8 !important
-}
-
-.bg-red {
-  background-color: #DC3545 !important;
-}
-
-.text-red {
-  color: #DC3545 !important;
-}
-
-.post-card {
-  transition: box-shadow .2s;
-  &:hover {
-    box-shadow:
-    0 30px 40px 0 rgba(0,0,0,0.11),
-    0 10px 15px 0 rgba(0,0,0,0.08);
-  }
-}
+@import "prism";
+@import "base";
