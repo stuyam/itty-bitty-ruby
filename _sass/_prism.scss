@@ -57,7 +57,8 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: white;
+	background: #F8FAFC;
+	border-radius: 0.5rem;
 }
 
 /* Inline code */
@@ -137,3 +138,4 @@ pre[class*="language-"] {
 .token.entity {
 	cursor: help;
 }
+
