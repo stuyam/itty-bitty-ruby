@@ -6,10 +6,10 @@ layout: default
 ---
 
 <div class="container mx-auto px-4 max-w-xl">
-  <div class="flex">
+  <div class="flex flex-wrap">
   {% for post in site.posts %}
     <div class="w-full md:w-1/2 p-4 sm:p-8">
-      <div class="mx-auto relative table">
+      <div class="relative w-full">
         <a href="{{ post.url }}" class="post-card bg-white max-w-sm shadow-lg rounded-lg overflow-hidden px-6 py-4 block no-underline text-black">
           <h3 class="text-center text-xl font-normal mb-1">{{ post.title }}</h3>
           <h6 class="text-center text-base text-grey-dark font-normal mb-3">{{ post.date | date_to_string }}</h6>
