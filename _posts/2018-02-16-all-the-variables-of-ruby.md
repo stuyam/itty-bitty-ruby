@@ -4,7 +4,7 @@ title:  "All the Variables of Ruby"
 ---
 In ruby there are *six* different types of variables. Some very obscure and rarely used, but interesting to know.
 
-### Variable
+### Local Variable
 Used in the scope of a method or other local usage.
 ```ruby
 name = 'stuart'

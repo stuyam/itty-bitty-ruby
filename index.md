@@ -19,7 +19,7 @@ layout: default
             <img class="w-8 h-8" src="{{ site.url }}/img/disclosure-indicator.png" />
           </div>
         </a>
-        <a href="{{ post.url }}" class="badge bg-red text-white rounded-full text-sm py-1 px-2 mr-3 leading-none no-underline">Unread</a>
+        <a href="{{ post.url }}" class="badge text-red rounded-full py-1 px-2 mr-3 leading-none no-underline font-bold"><span class="text-xl">&bullet;</span> Unread</a>
       </div>
     </div>
   {% endfor %}

@@ -6,11 +6,11 @@
       <h6 class="text-base text-grey-dark font-normal mb-4">{{ page.date | date_to_string }}</h6>
       <img class="w-100 mb-3" src="{{ site.url }}/img/comics/{{ page.title | slugify }}.png" />
 
-      <object id="my-svg" type="image/svg+xml" data="{{ site.url }}/img/test-2.svg"></object>
+<!--       <object id="my-svg" type="image/svg+xml" data="{{ site.url }}/img/test-2.svg"></object>
       <script>
         var comic = new Vivus('my-svg', {type: 'oneByOne', duration: 2000});
         console.log(comic.map);
-      </script>
+      </script> -->
 
       {{ content }}
     </div>
