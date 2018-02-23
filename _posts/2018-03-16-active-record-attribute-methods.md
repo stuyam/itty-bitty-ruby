@@ -2,7 +2,7 @@
 layout: post
 title:  "Active Record Attribute Methods"
 ---
-You know these two getter and setter methods that are created when you add a column to a model. Take `name` for example.
+You know these two getter and setter methods that are created when you add a column to a table in active record. Take `name` for example.
 ```ruby
 person.name # nil
 person.name = 'stuart'
