@@ -1,12 +1,21 @@
-<svg width="58" height="49" viewBox="0 0 58 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>Vector</title>
+<svg width="64" height="56" viewBox="0 0 64 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(65 336)">
+<g id="Canvas" transform="translate(-1564 -719)">
+<g id="Group">
 <g id="Vector">
-<use xlink:href="#path0_fill" transform="translate(-65 -336)" fill="#ffffff"/>
+<use xlink:href="#path0_stroke" transform="matrix(1 2.44929e-16 -2.44929e-16 1 1567 721.987)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 2.14">
+<use xlink:href="#path1_fill" transform="matrix(0.677264 -0.73574 -0.73574 -0.677264 1582.64 758.163)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 2.15">
+<use xlink:href="#path1_fill" transform="matrix(0.677264 -0.73574 -0.73574 -0.677264 1589.94 765.149)" fill="#FFFFFF"/>
+</g>
 </g>
 </g>
 <defs>
-<path id="path0_fill" d="M 0 14.7623L 28.7348 49L 58 14.7623L 43.4116 0L 13.8811 0L 0 14.7623Z"/>
+<path id="path0_stroke" d="M 28.7348 49L 27.2028 50.2857L 28.7208 52.0944L 30.2551 50.2995L 28.7348 49ZM 0 14.7623L -1.45703 13.3922L -2.67436 14.6868L -1.53196 16.048L 0 14.7623ZM 13.8811 0L 13.8811 -2L 13.0164 -2L 12.4241 -1.37006L 13.8811 0ZM 43.4116 0L 44.8341 -1.40581L 44.247 -2L 43.4116 -2L 43.4116 0ZM 58 14.7623L 59.5203 16.0617L 60.7149 14.6642L 59.4226 13.3564L 58 14.7623ZM 30.2667 47.7143L 1.53196 13.4765L -1.53196 16.048L 27.2028 50.2857L 30.2667 47.7143ZM 1.45703 16.1323L 15.3381 1.37006L 12.4241 -1.37006L -1.45703 13.3922L 1.45703 16.1323ZM 13.8811 2L 43.4116 2L 43.4116 -2L 13.8811 -2L 13.8811 2ZM 41.989 1.40581L 56.5774 16.1681L 59.4226 13.3564L 44.8341 -1.40581L 41.989 1.40581ZM 56.4797 13.4628L 27.2145 47.7005L 30.2551 50.2995L 59.5203 16.0617L 56.4797 13.4628Z"/>
+<path id="path1_fill" d="M 0 0L 46.8286 0L 46.8286 4L 0 4L 0 0Z"/>
 </defs>
 </svg>
