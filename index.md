@@ -5,7 +5,7 @@
 layout: default
 ---
 
-<div class="container mx-auto px-4 max-w-xl">
+<div class="container mx-auto max-w-xl">
   <div class="flex flex-wrap">
   {% for post in site.posts %}
     <div class="w-full md:w-1/2 p-4 sm:p-8">
