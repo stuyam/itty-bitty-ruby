@@ -16,7 +16,7 @@
 title: Itty Bitty Ruby
 email: stuartyamartino@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Little chances to make big improvements in your ruby and rails code.
+  Itty Bitty Ruby give little chances to make big improvements in your ruby and ruby on rails code. 60 second reads.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ittybittyruby.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

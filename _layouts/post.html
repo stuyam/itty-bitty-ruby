@@ -1,10 +1,18 @@
-{% include head.html %}
+{% capture title %}
+{{ page.title }} - {{ site.title }}
+{% endcapture %}
+
+{% capture image %}
+{{ site.url }}/img/comics/{{ page.title | slugify }}.png
+{% endcapture %}
+
+{% include head.html title=title image=image %}
 {% include nav.html %}
   <div class="flex-1">
     <div class="bg-white mx-auto max-w-md shadow-lg rounded-lg overflow-hidden px-6 py-4 block no-underline text-black mt-8">
       <h1 class="text-xl font-normal">{{ page.title }}</h1>
       <h6 class="text-base text-grey-dark font-normal mb-4">{{ page.date | date_to_string }}</h6>
-      <img class="w-100 mb-3" src="{{ site.url }}/img/comics/{{ page.title | slugify }}.png" />
+      <img class="w-100 mb-3" src="{{ image }}" />
 
 <!--       <object id="my-svg" type="image/svg+xml" data="{{ site.url }}/img/test-2.svg"></object>
       <script>

@@ -1,4 +1,12 @@
-{% include head.html %}
+{% capture title %}
+{{ site.title }}
+{% endcapture %}
+
+{% capture image %}
+{{ site.url }}/img/social-preview.png
+{% endcapture %}
+
+{% include head.html title=title image=image %}
 {% include nav.html %}
   <div class="flex-1">
     {{ content }}
