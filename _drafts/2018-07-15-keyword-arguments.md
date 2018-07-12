@@ -5,7 +5,7 @@ jumbo: 'keywords:'
 ---
 In Ruby 1.9 and below you would probably do something like this if you wanted an options hash in a method.
 ```ruby
-def update options = {}
+def update(options = {})
   force = options.fetch(:force, false)
   run_some_thing! if force
 end
@@ -15,7 +15,7 @@ update(force: true)
 
 As of Ruby 2.0 and above you can simplify this process.
 ```ruby
-def update force: false
+def update(force: false)
   run_some_thing! if force
 end
 
@@ -24,7 +24,7 @@ update(force: true)
 
 In addition to that, as of Ruby 2.1 you can add required keyword arguments if you don't want optional values.
 ```ruby
-def update force:
+def update(force:)
   run_some_thing! if force
 end
 
