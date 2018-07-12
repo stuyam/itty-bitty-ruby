@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Named Regex Captures in Ruby 2.4"
+title:  'Named Regex Captures in Ruby 2.4'
+jumbo: '?&lt;name&gt;'
 ---
 As of **Ruby 2.4** you can now name your regex captures, rather than just using numbers. Name the capture with `?<name>` at the beginning of the capture group. Then you can access it with the `.values_at` methods using a list of symbols.
 ```ruby

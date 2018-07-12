@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Include vs. Extend"
+title:  'Include vs. Extend'
+jumbo: 'include Food'
 ---
 I always get confused as to when to use `include` and when to use `extend` to add a modules methods to a class or instance of a class. Here is how I remember it now.
 

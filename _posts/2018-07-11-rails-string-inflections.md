@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Rails String Inflections"
+title:  'Rails String Inflections'
+jumbo: '.humanize'
 ---
 Here is a quick cheat sheet of the Rails string inflector methods. There are more but these are all the methods that end in _ize_ which are the string transformers.
 
@@ -37,7 +38,7 @@ Here is a quick cheat sheet of the Rails string inflector methods. There are mor
 'taco'.pluralize # => 'tacos'
 'octopus'.pluralize # => 'octopi'
 
-'tacos'.signularize # => 'taco'
+'tacos'.singularize # => 'taco'
 'octopi'.singularize # => 'octopus'
 ```
 ### Tableize

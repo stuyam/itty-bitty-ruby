@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Float Precision in Ruby 2.4"
+title:  'Float Precision in Ruby 2.4'
+jumbo: '.floor(2)'
 ---
 As of **Ruby 2.4** you can now set a precision for floats with the `#round`, `#ceil`, `#floor`, and `#truncate` methods.
 ```ruby

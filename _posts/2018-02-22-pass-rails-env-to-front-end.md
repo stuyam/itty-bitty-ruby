@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Pass Rails ENV to Front End"
+title:  'Pass Rails ENV to Front End'
+jumbo: "ENV['BASE_URL']"
 ---
 Sometimes you need ENV values from rails in your front end. Maybe `API_BASE_URL` or a `MAPBOX_TOKEN`.
 Here is a simple approach, make an `env.js.erb` file in assets and set it up as follows.

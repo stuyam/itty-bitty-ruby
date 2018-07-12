@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Ditch Arrays of Quoted Strings"
+title:  'Ditch Arrays of Quoted Strings'
+jumbo: '%w'
 ---
 This is a common things you see in Ruby.
 ```ruby

@@ -12,7 +12,8 @@
     <div class="bg-white mx-auto max-w-md shadow-lg rounded-lg overflow-hidden px-6 py-4 block no-underline text-black mt-8">
       <h1 class="text-xl font-normal">{{ page.title }}</h1>
       <h6 class="text-base text-grey-dark font-normal mb-4">{{ page.date | date_to_string }}</h6>
-      <img class="w-100 mb-3" src="{{ image }}" />
+      <div class="font-mono text-3xl text-center text-red mb-3">{{ page.jumbo }}</div>
+      <!-- <img class="w-100 mb-3" src="{{ image }}" /> -->
 
 <!--       <object id="my-svg" type="image/svg+xml" data="{{ site.url }}/img/test-2.svg"></object>
       <script>
@@ -40,7 +41,7 @@
 
 
     <!-- Disqus Javascript -->
-    <div id="disqus_thread" class="mx-auto max-w-md px-2" style="margin-bottom: -85px;"></div>
+    <div id="disqus_thread" class="mx-auto max-w-md px-2"></div>
     <script>
 
     /**

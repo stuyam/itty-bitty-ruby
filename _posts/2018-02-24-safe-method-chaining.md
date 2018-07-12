@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Safe Method Chaining"
+title:  'Safe Method Chaining'
+jumbo: '&.'
 ---
 Ever do something like this?
 ```ruby

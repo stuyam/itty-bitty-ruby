@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "All the Variables of Ruby"
+title:  'All the Variables of Ruby'
+jumbo: 'var'
 ---
 In ruby there are *six* different types of variables. Some very obscure and rarely used, but interesting to know.
 

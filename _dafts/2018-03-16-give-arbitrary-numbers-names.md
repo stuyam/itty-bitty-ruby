@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Give Arbitrary Numbers Names"
+title:  'Give Arbitrary Numbers Names'
+jumbo: 'hours_24'
 ---
 It's common to see a like this this.
 ```ruby
