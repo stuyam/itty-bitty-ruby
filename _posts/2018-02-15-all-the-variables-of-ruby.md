@@ -12,7 +12,7 @@ name = 'stuart'
 ```
 
 ### Constant
-Usually used as a value that it set once to set a default or reusable value. They use all caps as a convention.
+Usually used as a value that is set once to set a default or reusable value. They use all caps as a convention.
 ```ruby
 class Person
   TYPES = [:admin, :user].freeze
