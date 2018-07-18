@@ -12,7 +12,7 @@ var ENV = {
   MAPBOX_TOKEN: '<%= ENV['MAPBOX_TOKEN'] %>',
 }
 ```
-Because JS and Ruby are so similar you can access the values anywhere from the front the same way you do in Ruby.
+Because JS and Ruby are so similar you can access the values anywhere from the front end the same way you do in Ruby.
 ```javascript
 var token = ENV['MAPBOX_TOKEN'];
 ```
