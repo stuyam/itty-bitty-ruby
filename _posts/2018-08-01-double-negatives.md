@@ -17,6 +17,6 @@ if @user.name.present?
 end
 ```
 
-If you find yourself using a `bang`! to negate a call with `.blank?` or `.present?` in it, just remove the `bang`1 and swap the methods.
+If you find yourself using a `bang`! to negate a call with `.blank?` or `.present?` in it, just remove the `bang`! and swap the methods.
 
 In rails there are the `.blank?` and `.present?` methods to determine if a value is nil, false, or an empty string. Same goes for enumerables like an array with the `.any?` any `.empty?` methods.
